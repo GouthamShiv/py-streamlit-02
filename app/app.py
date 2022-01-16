@@ -4,7 +4,7 @@ import pandas as pd
 import altair as alt
 from PIL import Image
 
-image = Image.open('app/dna_image.jpg')
+image = Image.open('/app/dna_image.jpg')
 st.image(image, use_column_width=True)
 
 st.write("""
